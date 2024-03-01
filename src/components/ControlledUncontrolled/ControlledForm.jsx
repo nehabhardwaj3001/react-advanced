@@ -1,17 +1,16 @@
-import { useEffect } from "react";
-import { useState } from "react";
+import { useEffect } from 'react';
+import { useState } from 'react';
 
-export const ControlledForm = () => {
-  const [error, setError] = useState("");
-  const [name, setName] = useState("");
+const ControlledForm = () => {
+  const [error, setError] = useState('');
+  const [name, setName] = useState('');
   const [age, setAge] = useState();
-
 
   useEffect(() => {
     if (name.length < 1) {
-      setError("The name can not be empty");
+      setError('The name can not be empty');
     } else {
-      setError("");
+      setError('');
     }
   }, [name]);
 
@@ -19,16 +18,16 @@ export const ControlledForm = () => {
     <form>
       {error && <p>{error}</p>}
       <input
-        name="name"
-        type="text"
-        placeholder="Name"
+        name='name'
+        type='text'
+        placeholder='Name'
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
       <input
-        name="age"
-        type="number"
-        placeholder="Age"
+        name='age'
+        type='number'
+        placeholder='Age'
         value={age}
         onChange={(e) => setAge(e.target.value)}
       />
@@ -36,3 +35,5 @@ export const ControlledForm = () => {
     </form>
   );
 };
+
+export default ControlledForm;

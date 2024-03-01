@@ -12,10 +12,10 @@ function App() {
     <>
       {/* <LayoutComponent /> */}
       {/* <ContainerComponent /> */}
-      {/* <ControlledUncontrolled /> */}
+      <ControlledUncontrolled />
       {/* <HighOrderComponent /> */}
       {/* <CustomHooks /> */}
-      <FunctionalProgramming />
+      {/* <FunctionalProgramming /> */}
     </>
   );
 }

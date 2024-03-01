@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from 'react';
 
 export const ControlledFlow = ({
   children,
   onDone,
   currentStepIndex,
-  onNext,
+  onNext
 }) => {
   const next = (data) => {
     onNext(data);
