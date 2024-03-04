@@ -2,7 +2,7 @@ import React from 'react';
 import Modal from './Modal';
 import LargeBookListItem from './books/LargeListItem';
 import SplitScreen from './split-screen';
-import { books } from '../LayoutComponents/data/books';
+import { books } from './data/books';
 import Lists from './lists';
 
 const Left = ({ title }) => {
