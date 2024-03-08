@@ -8,6 +8,8 @@ import CustomHooks from './components/CustomHooks';
 import FunctionalProgramming from './components/FunctionalProgramming';
 import CompoundComponent from './components/CompoundComponents';
 import ObserverPattern from './components/ObserverPattern';
+import ReactPortals from './components/ReactPortals';
+import ForwardingRefs from './components/ForwardingRefs';
 
 function App() {
   return (
@@ -19,7 +21,9 @@ function App() {
       {/* <CustomHooks /> */}
       {/* <FunctionalProgramming /> */}
       {/* <CompoundComponent /> */}
-      <ObserverPattern />
+      {/* <ObserverPattern /> */}
+      {/* <ReactPortals /> */}
+      <ForwardingRefs />
     </>
   );
 }
