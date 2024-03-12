@@ -10,6 +10,8 @@ import CompoundComponent from './components/CompoundComponents';
 import ObserverPattern from './components/ObserverPattern';
 import ReactPortals from './components/ReactPortals';
 import ForwardingRefs from './components/ForwardingRefs';
+import ErrorBoundaries from './components/ErrorBoundaries';
+import Keys from './components/Keys';
 
 function App() {
   return (
@@ -23,7 +25,9 @@ function App() {
       {/* <CompoundComponent /> */}
       {/* <ObserverPattern /> */}
       {/* <ReactPortals /> */}
-      <ForwardingRefs />
+      {/* <ForwardingRefs /> */}
+      {/* <ErrorBoundaries /> */}
+      <Keys />
     </>
   );
 }
